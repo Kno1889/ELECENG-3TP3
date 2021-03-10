@@ -9,7 +9,7 @@
  axis([-5 10 -5 5]);
  ylabel("x[n]");
  xlabel("n")
- title("Khaled Hassan, 400203796")
+
 
 %% b)
  n = -5:10;
@@ -20,7 +20,7 @@
  axis([-5 10 -5 5]);
  ylabel("x[n]");
  xlabel("n")
- title("Khaled Hassan, 400203796")
+
 
 %% c)
 n = -5:10;
@@ -31,7 +31,7 @@ stem(n, x);
  axis([-5 10 -5 5]);
  ylabel("x[n]");
  xlabel("n")
- title("Khaled Hassan, 400203796")
+
 
 %% d) 
 n = -5:10
@@ -43,7 +43,7 @@ stem(n, x);
  axis([-5 10 -10 100]);
  ylabel("x[n]");
  xlabel("n")
- title("Khaled Hassan, 400203796")
+
 
 %% Question 2
 %% array to hold max possible grades in each grade component
@@ -150,7 +150,7 @@ final_grades = sort(final_grades, "descend");
 plot(num_students, final_grades, "x");
 %% Not sure of this one xlabel("Number of Students");
 ylabel("Final Course Grade");
-title("Khaled Hassan, 400203796");
+
 
 %% Question 3
 %% a) 
